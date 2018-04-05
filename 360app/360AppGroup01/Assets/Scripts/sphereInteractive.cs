@@ -8,9 +8,9 @@ using UnityEngine.SceneManagement;
 public class sphereInteractive : MonoBehaviour {
 
     public float gazeTime = 2f;
-
+    public GameObject canvaS; 
     public int levelToLoad;
-    public GameObject canvaS;
+    
 
     private float timer;
     private bool gazeDat;
