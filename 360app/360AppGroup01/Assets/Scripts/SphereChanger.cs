@@ -7,7 +7,7 @@ public class SphereChanger : MonoBehaviour {
 
 
     //This object should be called 'Fader' and placed over the camera
-    GameObject m_Fader;
+    public GameObject m_Fader;
 
     //This ensures that we don't mash to change spheres
     bool changing = false;
