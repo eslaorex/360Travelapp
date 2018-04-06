@@ -18,7 +18,7 @@ public class GazeScript : MonoBehaviour {
     void Update()
     {
         transform.Rotate(new Vector3(0, Time.deltaTime * 20, 0));
-
+        
         if (gazeDat)
             timer += Time.deltaTime;
 
@@ -28,6 +28,7 @@ public class GazeScript : MonoBehaviour {
             ExecuteEvents.Execute(gameObject, new PointerEventData(EventSystem.current), ExecuteEvents.pointerDownHandler);
 
         }
+        
     }
 
     public void PointerEnter()
