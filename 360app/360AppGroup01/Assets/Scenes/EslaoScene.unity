@@ -1598,7 +1598,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gazeTime: 2
   Mytime: 0
-  RadialProgress: {fileID: 0}
+  RadialProgress: {fileID: 748423132}
 --- !u!114 &1605371129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1789,7 +1789,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gazeTime: 2
   Mytime: 0
-  RadialProgress: {fileID: 0}
+  RadialProgress: {fileID: 748423132}
 --- !u!114 &1615110812
 MonoBehaviour:
   m_ObjectHideFlags: 0
