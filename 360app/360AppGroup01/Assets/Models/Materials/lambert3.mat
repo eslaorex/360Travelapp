@@ -7,7 +7,11 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: lambert3
+<<<<<<< HEAD
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+=======
+  m_Shader: {fileID: 4800000, guid: 6bf3fdcbb27e2b848999e4dc95f0e5ea, type: 3}
+>>>>>>> 3b379f42cfea0302dda68845e2d21d028d32d0bb
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -60,7 +64,11 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
+<<<<<<< HEAD
     - _Glossiness: 0
+=======
+    - _Glossiness: 0.5
+>>>>>>> 3b379f42cfea0302dda68845e2d21d028d32d0bb
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
@@ -73,4 +81,8 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+<<<<<<< HEAD
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+=======
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+>>>>>>> 3b379f42cfea0302dda68845e2d21d028d32d0bb
