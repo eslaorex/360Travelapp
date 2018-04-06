@@ -36,6 +36,8 @@ public class SphereChanger : MonoBehaviour {
     }
 
 
+
+
     IEnumerator FadeCamera(Transform nextSphere)
     {
 

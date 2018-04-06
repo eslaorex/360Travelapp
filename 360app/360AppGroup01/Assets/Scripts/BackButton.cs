@@ -15,12 +15,16 @@ public class BackButton : MonoBehaviour {
     private float timer;
     private bool gazeDat;
 
-
+    GameObject m_Fader;
 
     // Use this for initialization
-    void Start()
+    void Awake()
     {
+        m_Fader = GameObject.Find("Fader");
 
+        //Check if we found something
+        if (m_Fader == null)
+            Debug.LogWarning("No Fader object found on camera.");
     }
 
     // Update is called once per frame

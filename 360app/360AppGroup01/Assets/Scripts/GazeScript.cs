@@ -10,10 +10,13 @@ public class GazeScript : MonoBehaviour {
     private float timer;
     private bool gazeDat;
 
+    public float Mytime = 0f;
+    public Transform RadialProgress;
+
     // Use this for initialization
     void Start () {
-		
-	}
+       // RadialProgress.GetComponent<Image>().fillAmount = Mytime;
+    }
 
     void Update()
     {
