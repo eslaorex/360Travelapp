@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 
 public class GazeScript : MonoBehaviour {
@@ -15,7 +16,7 @@ public class GazeScript : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-       // RadialProgress.GetComponent<Image>().fillAmount = Mytime;
+        RadialProgress.GetComponent<Image>().fillAmount = Mytime;
     }
 
     void Update()
@@ -24,6 +25,8 @@ public class GazeScript : MonoBehaviour {
         
         if (gazeDat)
             timer += Time.deltaTime;
+
+        RadialProgress.GetComponent<Image>().fillAmount = Mytime / 3;
 
         if (timer >= gazeTime)
         {
@@ -53,6 +56,12 @@ public class GazeScript : MonoBehaviour {
         gazeDat = true;
         Debug.Log("Pointer Down");
         
+    }
+
+    public void Resetinator()
+    {
+        Mytime = 0f;
+        RadialProgress.GetComponent<Image>().fillAmount = Mytime;
     }
 
 
