@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class SphereChangerNoFade : MonoBehaviour {
 
+    public Transform nextSphere;
+
     //This ensures that we don't mash to change spheres
     //bool changing = false;
+
 
 
     public void ChangeSphere(Transform nextSphere)

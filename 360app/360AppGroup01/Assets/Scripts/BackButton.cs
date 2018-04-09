@@ -10,12 +10,9 @@ public class BackButton : MonoBehaviour {
 
     public float gazeTime = 3f;
 
-
     public int levelToLoad;
     
     private float timer = 0f;
-    private bool gazeDat;
-
 
     public Transform RadialProgress;
 
@@ -24,11 +21,11 @@ public class BackButton : MonoBehaviour {
     {
         
 
-        if (gazeDat)
+     
             timer += Time.deltaTime;
             RadialProgress.GetComponent<Image>().fillAmount = timer / 3;
 
-        if (timer >= gazeTime)
+        if (timer >= 3f)
         {
             
             SceneManager.LoadScene(levelToLoad);
@@ -37,16 +34,16 @@ public class BackButton : MonoBehaviour {
 
     public void PointerEnter()
     {
-        gazeDat = true;
+   
         Debug.Log("Pointer Enter");
        
     }
 
     public void PointerExit()
     {
-        gazeDat = false;
-        Debug.Log("Pointer Exit");
-        
+        timer = 0f;
+        RadialProgress.GetComponent<Image>().fillAmount = timer / 3;
+
     }
 
     public void PointerDown()
