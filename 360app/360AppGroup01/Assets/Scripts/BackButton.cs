@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
 
 public class BackButton : MonoBehaviour {
 
@@ -11,10 +13,11 @@ public class BackButton : MonoBehaviour {
 
     public int levelToLoad;
     
-    private float timer;
+    private float timer = 0f;
     private bool gazeDat;
 
-  
+
+    public Transform RadialProgress;
 
 
     void Update()
@@ -23,6 +26,7 @@ public class BackButton : MonoBehaviour {
 
         if (gazeDat)
             timer += Time.deltaTime;
+            RadialProgress.GetComponent<Image>().fillAmount = timer / 3;
 
         if (timer >= gazeTime)
         {

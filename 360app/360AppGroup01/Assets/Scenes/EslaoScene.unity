@@ -209,6 +209,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gazeTime: 2
   levelToLoad: 1
+  myTime: 0
+  RadialProgress: {fileID: 748423132}
 --- !u!114 &169766387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -574,7 +576,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 491255731}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e227e741487ca2d41911f63fbd1ca1ec, type: 3}
   m_Name: 
@@ -815,6 +817,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gazeTime: 2
   levelToLoad: 1
+  myTime: 0
+  RadialProgress: {fileID: 748423132}
 --- !u!114 &953813501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1253,7 +1257,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1444890915}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f8b64f17629df944683eaddd3c928245, type: 3}
   m_Name: 
@@ -1300,7 +1304,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 1444890920}
+        - m_Target: {fileID: 491255733}
           m_MethodName: PointerDown
           m_Mode: 1
           m_Arguments:
@@ -1317,7 +1321,18 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1444890920}
+        - m_Target: {fileID: 491255733}
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 491255733}
           m_MethodName: PointerEnter
           m_Mode: 1
           m_Arguments:
@@ -1326,7 +1341,7 @@ MonoBehaviour:
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
-            m_BoolArgument: 0
+            m_BoolArgument: 1
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -1334,9 +1349,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1444890920}
-          m_MethodName: PointerExit
-          m_Mode: 1
+        - m_Target: {fileID: 491255733}
+          m_MethodName: set_enabled
+          m_Mode: 6
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1346,7 +1361,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 1444890920}
-          m_MethodName: Resetinator
+          m_MethodName: PointerExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1531,7 +1546,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1605371126}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f8b64f17629df944683eaddd3c928245, type: 3}
   m_Name: 
@@ -2173,13 +2188,15 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1786860650}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a086be758f5828f4a83c9e7a8a8a9afe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gazeTime: 2
+  gazeTime: 3
   levelToLoad: 0
+  myTime: 0
+  RadialProgress: {fileID: 748423132}
 --- !u!114 &1786860656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2277,6 +2294,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gazeTime: 2
   levelToLoad: 1
+  myTime: 0
+  RadialProgress: {fileID: 748423132}
 --- !u!114 &1856538755
 MonoBehaviour:
   m_ObjectHideFlags: 0
