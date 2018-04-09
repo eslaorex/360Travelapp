@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -285,7 +285,6 @@ GameObject:
   - component: {fileID: 622501477}
   - component: {fileID: 622501479}
   - component: {fileID: 622501478}
-  - component: {fileID: 622501480}
   m_Layer: 0
   m_Name: PekingSphere
   m_TagString: Untagged
@@ -351,12 +350,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 622501472}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.014, y: -0.031980645, z: 0.036}
-  m_LocalScale: {x: 0.21882889, y: 0.2188289, z: 0.2188289}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1676555015}
-  m_Father: {fileID: 1901276511}
-  m_RootOrder: 2
+  m_Father: {fileID: 1696435730}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &622501477
 MonoBehaviour:
@@ -385,7 +384,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 622501480}
+        - m_Target: {fileID: 0}
           m_MethodName: set_enabled
           m_Mode: 6
           m_Arguments:
@@ -413,7 +412,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 622501480}
+        - m_Target: {fileID: 0}
           m_MethodName: set_enabled
           m_Mode: 6
           m_Arguments:
@@ -424,7 +423,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 622501480}
+        - m_Target: {fileID: 0}
           m_MethodName: PointerExit
           m_Mode: 1
           m_Arguments:
@@ -441,7 +440,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 622501480}
+        - m_Target: {fileID: 0}
           m_MethodName: PointerDown
           m_Mode: 1
           m_Arguments:
@@ -483,21 +482,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noLooky: {fileID: 2100000, guid: 44c12c3c982b4f240b135ceeff4cbf08, type: 2}
   eyeSpy: {fileID: 2100000, guid: 9bd22f25ae2ef524290d1de1d4aabdf9, type: 2}
---- !u!114 &622501480
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 622501472}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36338566e4dc5d4408bc028e7bda7d98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gazeTime: 3
-  canvaS: {fileID: 0}
-  levelToLoad: 0
-  RadialProgress: {fileID: 1527520426}
 --- !u!1 &708076951
 GameObject:
   m_ObjectHideFlags: 0
@@ -696,12 +680,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 877588607}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.982, y: -0.031980645, z: 0.003}
-  m_LocalScale: {x: 0.21608712, y: 0.21608712, z: 0.21608712}
+  m_LocalPosition: {x: 9.121282, y: 0, z: -0.15080275}
+  m_LocalScale: {x: 0.9874707, y: 0.9874707, z: 0.9874707}
   m_Children:
   - {fileID: 1583069056}
-  m_Father: {fileID: 1901276511}
-  m_RootOrder: 4
+  m_Father: {fileID: 1696435730}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &877588609
 MonoBehaviour:
@@ -717,7 +701,7 @@ MonoBehaviour:
   myTime: 0
   RadialProgress: {fileID: 1527520426}
   gazeTime: 3
-  nextSphere: {fileID: 0}
+  nextSphere: {fileID: 1564098090}
 --- !u!114 &877588610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1307,12 +1291,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1578196314}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.012, y: -0.031980645, z: 1.031}
-  m_LocalScale: {x: 0.20130177, y: 0.20130152, z: 0.20130152}
+  m_LocalPosition: {x: 4.5789204, y: 0, z: 4.5469313}
+  m_LocalScale: {x: 0.9199049, y: 0.9199037, z: 0.9199037}
   m_Children:
   - {fileID: 52959008}
-  m_Father: {fileID: 1901276511}
-  m_RootOrder: 3
+  m_Father: {fileID: 1696435730}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1578196316
 MonoBehaviour:
@@ -1328,7 +1312,7 @@ MonoBehaviour:
   myTime: 0
   RadialProgress: {fileID: 1527520426}
   gazeTime: 3
-  nextSphere: {fileID: 0}
+  nextSphere: {fileID: 220877790}
 --- !u!114 &1578196317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1631,9 +1615,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1676555014}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: -0.31894374, y: -0.3189438, z: -0.3189438}
+  m_LocalScale: {x: -0.31894368, y: -0.3189438, z: -0.3189438}
   m_Children: []
   m_Father: {fileID: 622501476}
   m_RootOrder: 0
@@ -1674,6 +1658,37 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &1696435729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1696435730}
+  m_Layer: 0
+  m_Name: InteraktiveSpheres
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1696435730
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1696435729}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.014, y: -0.031980645, z: 0.036}
+  m_LocalScale: {x: 0.21882889, y: 0.2188289, z: 0.2188289}
+  m_Children:
+  - {fileID: 622501476}
+  - {fileID: 1578196315}
+  - {fileID: 877588608}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1766714827
 Prefab:
   m_ObjectHideFlags: 0
@@ -1816,9 +1831,6 @@ Transform:
   m_Children:
   - {fileID: 739374704}
   - {fileID: 1570316768}
-  - {fileID: 622501476}
-  - {fileID: 1578196315}
-  - {fileID: 877588608}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
