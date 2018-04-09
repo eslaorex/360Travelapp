@@ -4,11 +4,10 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-
 public class GazeScript : MonoBehaviour {
 
     public float gazeTime = 2f;
-    private float timer;
+    //private float timer;
     private bool gazeDat;
 
     public float Mytime = 0f;
@@ -16,7 +15,7 @@ public class GazeScript : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        RadialProgress.GetComponent<Image>().fillAmount = Mytime;
+        
     }
 
     void Update()
@@ -24,15 +23,16 @@ public class GazeScript : MonoBehaviour {
         transform.Rotate(new Vector3(0, Time.deltaTime * 20, 0));
         
         if (gazeDat)
-            timer += Time.deltaTime;
+            Mytime += Time.deltaTime;
+            RadialProgress.GetComponent<Image>().fillAmount = Mytime / 3;
+        
 
-        RadialProgress.GetComponent<Image>().fillAmount = Mytime / 3;
-
-        if (timer >= gazeTime)
+        if (Mytime >= gazeTime)
         {
             //PointerDown();
+            
             ExecuteEvents.Execute(gameObject, new PointerEventData(EventSystem.current), ExecuteEvents.pointerDownHandler);
-
+            
         }
         
     }
@@ -61,7 +61,7 @@ public class GazeScript : MonoBehaviour {
     public void Resetinator()
     {
         Mytime = 0f;
-        RadialProgress.GetComponent<Image>().fillAmount = Mytime;
+        RadialProgress.GetComponent<Image>().fillAmount = Mytime / 3;
     }
 
 
