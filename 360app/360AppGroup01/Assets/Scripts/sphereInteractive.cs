@@ -8,7 +8,7 @@ using UnityEngine.EventSystems;
 
 public class sphereInteractive : MonoBehaviour {
 
-    public float gazeTime = 2f;
+    public float gazeTime = 3f;
     public GameObject canvaS; 
     public int levelToLoad;
     public Transform RadialProgress;
