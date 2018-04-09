@@ -14,18 +14,18 @@ public class sphereInteractive : MonoBehaviour {
     public Transform RadialProgress;
 
     private float timer;
+
+
+
    
 
 
-   
-	
-
-	void Update () {
+    void Update () {
 
         transform.Rotate(new Vector3(0, Time.deltaTime * 20, 0));
 
-        
-            timer += Time.deltaTime;
+
+        timer += Time.deltaTime;
              RadialProgress.GetComponent<Image>().fillAmount = timer / 3;
         if (timer >= gazeTime)
         {
@@ -50,6 +50,10 @@ public class sphereInteractive : MonoBehaviour {
         
     }
 
+    public void Rotate()
+    {
+        
+    }
     public void PointerDown()
     {
         
