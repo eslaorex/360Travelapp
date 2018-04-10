@@ -45,7 +45,7 @@ public class sphereInteractive : MonoBehaviour {
     {
        canvaS.SetActive(false);
         timer = 0f;
-        RadialProgress.GetComponent<Image>().fillAmount = timer / 3;
+        RadialProgress.GetComponent<Image>().fillAmount = timer;
 
         
     }
