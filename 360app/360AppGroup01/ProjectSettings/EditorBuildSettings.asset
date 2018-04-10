@@ -8,3 +8,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: d239e895b12d9a64c926862d4cdc407a
+  - enabled: 1
+    path: Assets/Scenes/EslaoScene.unity
+    guid: 918817a49691bb2438487b75bff30e56
+  - enabled: 1
+    path: Assets/Scenes/AntonScene02.unity
+    guid: eac70b37dc101c44b8ee3cebd5becca0
+  - enabled: 1
+    path: Assets/Scenes/BogdanScene.unity
+    guid: 36bee0692a5729a4196c5c3ff6dbaf93
+  - enabled: 1
+    path: Assets/Scenes/FadiScene02.unity
+    guid: 945bb9a1398eaaf4a941b9c84d226a3f
