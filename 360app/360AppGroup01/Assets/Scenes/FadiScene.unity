@@ -311,7 +311,7 @@ Prefab:
       objectReference: {fileID: 2100000, guid: aaeee7cc1db8cd54eb33e7e9c6942c15, type: 2}
     - target: {fileID: 100000, guid: 067e320542bde4a4dbcbe8b3af012366, type: 3}
       propertyPath: m_Name
-      value: Sphere360_faceOut (2)
+      value: MAIN-SQUARE
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 067e320542bde4a4dbcbe8b3af012366, type: 3}
@@ -507,7 +507,7 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 8d2c8f63f1ce73c41b2caab63027ba69, type: 2}
     - target: {fileID: 100000, guid: 067e320542bde4a4dbcbe8b3af012366, type: 3}
       propertyPath: m_Name
-      value: Sphere360_faceOut (3)
+      value: FIRST SQUARE
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 067e320542bde4a4dbcbe8b3af012366, type: 3}
       propertyPath: m_LocalScale.x
@@ -975,7 +975,7 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 4d948b2fc0b64424788782692897cbfe, type: 2}
     - target: {fileID: 100000, guid: 067e320542bde4a4dbcbe8b3af012366, type: 3}
       propertyPath: m_Name
-      value: Sphere360_faceOut (10)
+      value: SECOUND SQUARE
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 067e320542bde4a4dbcbe8b3af012366, type: 3}
       propertyPath: m_LocalScale.x
@@ -1127,7 +1127,7 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 2ca9c23d4d1de394b8f19420f372606e, type: 2}
     - target: {fileID: 100000, guid: 067e320542bde4a4dbcbe8b3af012366, type: 3}
       propertyPath: m_Name
-      value: Sphere360_faceOut (9)
+      value: 'THIRD SQUARE '
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 067e320542bde4a4dbcbe8b3af012366, type: 3}
       propertyPath: m_LocalScale.x
