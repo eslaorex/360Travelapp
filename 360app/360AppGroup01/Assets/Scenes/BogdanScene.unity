@@ -155,7 +155,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 067e320542bde4a4dbcbe8b3af012366, type: 3}
       propertyPath: m_Name
-      value: MainSphereEslaoWorld
+      value: MainSphereBogdanWorld
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 067e320542bde4a4dbcbe8b3af012366, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -353,12 +353,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 169766385}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -70.3, y: 0.04, z: -68.9}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.8899994, y: 0.04, z: -11.200001}
   m_LocalScale: {x: 1.5418276, y: 1.541828, z: 0.5836895}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 1620933951}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &356907977
 GameObject:
@@ -788,7 +788,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 067e320542bde4a4dbcbe8b3af012366, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 1038e2728cef9c34db57540b3e04dde4, type: 2}
+      objectReference: {fileID: 2100000, guid: 59801093dce50304b99cf42dbe3f867c, type: 2}
     - target: {fileID: 400000, guid: 067e320542bde4a4dbcbe8b3af012366, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -982,12 +982,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 953813499}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -70.3, y: 0.04, z: -0.6}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.8899994, y: 0.04, z: -13.52}
   m_LocalScale: {x: 1.5418276, y: 1.541828, z: 0.5836895}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 35355278}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &996263567
 Prefab:
@@ -1221,7 +1221,7 @@ GameObject:
   - component: {fileID: 1444890922}
   - component: {fileID: 1444890916}
   m_Layer: 0
-  m_Name: SphereWorld01
+  m_Name: SphereWorld01Bog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1256,7 +1256,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 1f344ce81ba318f4290970be15a81fa0, type: 2}
+  - {fileID: 2100000, guid: d04926cc9510e2048a57ce3e5bae5e50, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1444,7 +1444,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 067e320542bde4a4dbcbe8b3af012366, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 852f014e3d47cd14a8040a2e09d68d1a, type: 2}
+      objectReference: {fileID: 2100000, guid: 09292e6207632f64bb4430f473a81a17, type: 2}
     - target: {fileID: 400000, guid: 067e320542bde4a4dbcbe8b3af012366, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -1540,7 +1540,7 @@ GameObject:
   - component: {fileID: 1605371129}
   - component: {fileID: 1605371128}
   m_Layer: 0
-  m_Name: SphereWorld03
+  m_Name: SphereWorld03Bog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1686,7 +1686,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: cd14daf8b7b1f78489d56c38a32c80d2, type: 2}
+  - {fileID: 2100000, guid: 09292e6207632f64bb4430f473a81a17, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1731,7 +1731,7 @@ GameObject:
   - component: {fileID: 1615110812}
   - component: {fileID: 1615110811}
   m_Layer: 0
-  m_Name: SphereWorld02
+  m_Name: SphereWorld02Bog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1877,7 +1877,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: f00c109f8f5effa458be6c8186530070, type: 2}
+  - {fileID: 2100000, guid: 59801093dce50304b99cf42dbe3f867c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1938,6 +1938,7 @@ Transform:
   - {fileID: 1444890919}
   - {fileID: 1615110810}
   - {fileID: 1605371127}
+  - {fileID: 1786860651}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1987,7 +1988,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 067e320542bde4a4dbcbe8b3af012366, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: c28f47dc3b6cee1468afe4e4764fc28a, type: 2}
+      objectReference: {fileID: 2100000, guid: d04926cc9510e2048a57ce3e5bae5e50, type: 2}
     - target: {fileID: 400000, guid: 067e320542bde4a4dbcbe8b3af012366, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -2121,12 +2122,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1786860650}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.18, y: 0.04, z: -8.71}
-  m_LocalScale: {x: 1.5418276, y: 1.541828, z: 0.5836895}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 308.00388, y: 4.851771, z: -158.77002}
+  m_LocalScale: {x: 25.79516, y: 25.795162, z: 9.765269}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 1632568469}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1786860652
 MeshRenderer:
@@ -2442,12 +2443,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1856538753}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.4, y: 0.04, z: -68.9}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.2000008, y: 0.04, z: -11.200001}
   m_LocalScale: {x: 1.5418276, y: 1.541828, z: 0.5836895}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 670880454}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1869098017 stripped
 GameObject:
