@@ -2,43 +2,52 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class QuitButton : MonoBehaviour {
 
-    public float gazeTime = 2f;
-    private float timer;
-    private bool gazeDat;
+    public float gazeTime = 3f;
 
+
+    private float timer = 0f;
+
+    public Transform RadialProgress;
 
 
     void Update()
     {
-        if (gazeDat)
-            timer += Time.deltaTime;
 
-        if (timer >= gazeTime)
+
+
+        timer += Time.deltaTime;
+        RadialProgress.GetComponent<Image>().fillAmount = timer / 3;
+
+        if (timer >= 3f)
         {
-            //PointerDown();
+
             Application.Quit();
-            ExecuteEvents.Execute(gameObject, new PointerEventData(EventSystem.current), ExecuteEvents.pointerDownHandler);
         }
     }
 
     public void PointerEnter()
     {
-        gazeDat = true;
+
+        Debug.Log("Pointer Enter");
+
     }
 
     public void PointerExit()
     {
-        gazeDat = false;     
+        timer = 0f;
+        RadialProgress.GetComponent<Image>().fillAmount = timer / 3;
+
     }
 
     public void PointerDown()
     {
-        gazeDat = true;
-        Application.Quit();
-    }
 
+
+    }
 
 }

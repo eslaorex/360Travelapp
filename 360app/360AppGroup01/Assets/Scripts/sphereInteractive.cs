@@ -8,24 +8,24 @@ using UnityEngine.EventSystems;
 
 public class sphereInteractive : MonoBehaviour {
 
-    public float gazeTime = 2f;
+    public float gazeTime = 3f;
     public GameObject canvaS; 
     public int levelToLoad;
     public Transform RadialProgress;
 
     private float timer;
+
+
+
    
 
 
-   
-	
-
-	void Update () {
+    void Update () {
 
         transform.Rotate(new Vector3(0, Time.deltaTime * 20, 0));
 
-        
-            timer += Time.deltaTime;
+
+        timer += Time.deltaTime;
              RadialProgress.GetComponent<Image>().fillAmount = timer / 3;
         if (timer >= gazeTime)
         {
@@ -45,11 +45,15 @@ public class sphereInteractive : MonoBehaviour {
     {
        canvaS.SetActive(false);
         timer = 0f;
-        RadialProgress.GetComponent<Image>().fillAmount = timer / 3;
+        RadialProgress.GetComponent<Image>().fillAmount = timer;
 
         
     }
 
+    public void Rotate()
+    {
+        
+    }
     public void PointerDown()
     {
         
