@@ -155,12 +155,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 067e320542bde4a4dbcbe8b3af012366, type: 3}
       propertyPath: m_Name
-      value: MainSphereEslaoWorld
+      value: MainSphereAntonWorld
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 067e320542bde4a4dbcbe8b3af012366, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 5e6ca09bea92c5141a3b364e4bdb3f37, type: 2}
+      objectReference: {fileID: 2100000, guid: 888bda83a6076304db4efe59be6b9775, type: 2}
     - target: {fileID: 400000, guid: 067e320542bde4a4dbcbe8b3af012366, type: 3}
       propertyPath: m_LocalScale.x
       value: 16.73025
@@ -207,8 +207,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a086be758f5828f4a83c9e7a8a8a9afe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gazeTime: 2
-  levelToLoad: 1
+  gazeTime: 3
+  levelToLoad: 2
   RadialProgress: {fileID: 748423132}
 --- !u!114 &169766387
 MonoBehaviour:
@@ -353,12 +353,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 169766385}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -70.3, y: 0.04, z: -68.9}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.8899994, y: 0.04, z: -11.200001}
   m_LocalScale: {x: 1.5418276, y: 1.541828, z: 0.5836895}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 1620933951}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &356907977
 GameObject:
@@ -522,8 +522,8 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3.11
-  m_Range: 26.11
+  m_Intensity: 3.8
+  m_Range: 47.9
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -644,8 +644,8 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3.58
-  m_Range: 26.11
+  m_Intensity: 4.7
+  m_Range: 39.33
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -783,12 +783,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 067e320542bde4a4dbcbe8b3af012366, type: 3}
       propertyPath: m_Name
-      value: World02
+      value: World02_anton
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 067e320542bde4a4dbcbe8b3af012366, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 4b50f91e565356343a8f70241ebeba77, type: 2}
+      objectReference: {fileID: 2100000, guid: f0b2e082ea64eec4baa347fb622d2f2d, type: 2}
     - target: {fileID: 400000, guid: 067e320542bde4a4dbcbe8b3af012366, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -836,8 +836,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a086be758f5828f4a83c9e7a8a8a9afe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gazeTime: 2
-  levelToLoad: 1
+  gazeTime: 3
+  levelToLoad: 2
   RadialProgress: {fileID: 748423132}
 --- !u!114 &953813501
 MonoBehaviour:
@@ -982,12 +982,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 953813499}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -70.3, y: 0.04, z: -0.6}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.8899994, y: 0.04, z: -13.52}
   m_LocalScale: {x: 1.5418276, y: 1.541828, z: 0.5836895}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 35355278}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &996263567
 Prefab:
@@ -1070,8 +1070,8 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 4.41
-  m_Range: 26.11
+  m_Intensity: 6.58
+  m_Range: 30.42
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -1221,7 +1221,7 @@ GameObject:
   - component: {fileID: 1444890922}
   - component: {fileID: 1444890916}
   m_Layer: 0
-  m_Name: SphereWorld01
+  m_Name: SphereWorld01_Anton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1256,7 +1256,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: c4dedc7e6de1c2d4e96fdd2da8e8004c, type: 2}
+  - {fileID: 2100000, guid: 3ff25b253a3168347a6c4318413a01ba, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1439,12 +1439,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 067e320542bde4a4dbcbe8b3af012366, type: 3}
       propertyPath: m_Name
-      value: World03
+      value: World03_anton
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 067e320542bde4a4dbcbe8b3af012366, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 326a0e3d16b284a4995e0a1e059c06e2, type: 2}
+      objectReference: {fileID: 2100000, guid: e903ec07f8d605a44ade8d965ca2f9f4, type: 2}
     - target: {fileID: 400000, guid: 067e320542bde4a4dbcbe8b3af012366, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -1501,7 +1501,7 @@ Light:
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 2.77
-  m_Range: 26.11
+  m_Range: 55.2
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -1540,7 +1540,7 @@ GameObject:
   - component: {fileID: 1605371129}
   - component: {fileID: 1605371128}
   m_Layer: 0
-  m_Name: SphereWorld03
+  m_Name: SphereWorld03_Anton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1686,7 +1686,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 326a0e3d16b284a4995e0a1e059c06e2, type: 2}
+  - {fileID: 2100000, guid: e903ec07f8d605a44ade8d965ca2f9f4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1731,7 +1731,7 @@ GameObject:
   - component: {fileID: 1615110812}
   - component: {fileID: 1615110811}
   m_Layer: 0
-  m_Name: SphereWorld02
+  m_Name: SphereWorld02_Anton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1782,7 +1782,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1615110811}
-          m_MethodName: PointerEnter
+          m_MethodName: PointerDown
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1877,7 +1877,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 4b50f91e565356343a8f70241ebeba77, type: 2}
+  - {fileID: 2100000, guid: f0b2e082ea64eec4baa347fb622d2f2d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1982,12 +1982,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 067e320542bde4a4dbcbe8b3af012366, type: 3}
       propertyPath: m_Name
-      value: World01
+      value: World01_anton
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 067e320542bde4a4dbcbe8b3af012366, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: c4dedc7e6de1c2d4e96fdd2da8e8004c, type: 2}
+      objectReference: {fileID: 2100000, guid: 3ff25b253a3168347a6c4318413a01ba, type: 2}
     - target: {fileID: 400000, guid: 067e320542bde4a4dbcbe8b3af012366, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -2296,8 +2296,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a086be758f5828f4a83c9e7a8a8a9afe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gazeTime: 2
-  levelToLoad: 1
+  gazeTime: 3
+  levelToLoad: 2
   RadialProgress: {fileID: 748423132}
 --- !u!114 &1856538755
 MonoBehaviour:
@@ -2442,12 +2442,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1856538753}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.4, y: 0.04, z: -68.9}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.2000008, y: 0.04, z: -11.200001}
   m_LocalScale: {x: 1.5418276, y: 1.541828, z: 0.5836895}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 670880454}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1869098017 stripped
 GameObject:

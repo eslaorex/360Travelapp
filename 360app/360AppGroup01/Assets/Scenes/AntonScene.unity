@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -110,6 +110,8 @@ NavMeshSettings:
     tileSize: 256
     accuratePlacement: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
+=======
 --- !u!1 &16024844
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,6 +196,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 16024844}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+>>>>>>> 75586f19de5173f02a061d8dc5de005142ae6c6e
 --- !u!1 &52959007
 GameObject:
   m_ObjectHideFlags: 0
@@ -367,9 +370,14 @@ GameObject:
   - component: {fileID: 622501474}
   - component: {fileID: 622501473}
   - component: {fileID: 622501477}
+<<<<<<< HEAD
+  - component: {fileID: 622501478}
+  - component: {fileID: 622501479}
+=======
   - component: {fileID: 622501479}
   - component: {fileID: 622501478}
   - component: {fileID: 622501480}
+>>>>>>> 75586f19de5173f02a061d8dc5de005142ae6c6e
   m_Layer: 0
   m_Name: PekingSphere
   m_TagString: Untagged
@@ -435,12 +443,21 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 622501472}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< HEAD
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1676555015}
+  m_Father: {fileID: 1696435730}
+  m_RootOrder: 0
+=======
   m_LocalPosition: {x: -1.014, y: -0.031980645, z: 0.036}
   m_LocalScale: {x: 0.21882889, y: 0.2188289, z: 0.2188289}
   m_Children:
   - {fileID: 1676555015}
   m_Father: {fileID: 1658672648}
   m_RootOrder: 1
+>>>>>>> 75586f19de5173f02a061d8dc5de005142ae6c6e
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &622501477
 MonoBehaviour:
@@ -454,12 +471,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates:
-  - eventID: 0
+  - eventID: 2
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 622501479}
-          m_MethodName: TotallyWatching
+        - m_Target: {fileID: 622501478}
+          m_MethodName: PointerDown
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -469,7 +486,17 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+<<<<<<< HEAD
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 622501478}
+=======
         - m_Target: {fileID: 622501480}
+>>>>>>> 75586f19de5173f02a061d8dc5de005142ae6c6e
           m_MethodName: set_enabled
           m_Mode: 6
           m_Arguments:
@@ -480,6 +507,10 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 2
+<<<<<<< HEAD
+        - m_Target: {fileID: 622501478}
+          m_MethodName: PointerEnter
+=======
         - m_Target: {fileID: 1901276512}
           m_MethodName: ChangeSphere
           m_Mode: 2
@@ -499,6 +530,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 622501479}
           m_MethodName: NotEvenLooking
+>>>>>>> 75586f19de5173f02a061d8dc5de005142ae6c6e
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -508,7 +540,28 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+<<<<<<< HEAD
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 622501478}
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 622501478}
+=======
         - m_Target: {fileID: 622501480}
+>>>>>>> 75586f19de5173f02a061d8dc5de005142ae6c6e
           m_MethodName: PointerExit
           m_Mode: 1
           m_Arguments:
@@ -521,6 +574,8 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+<<<<<<< HEAD
+=======
   - eventID: 2
     callback:
       m_PersistentCalls:
@@ -538,6 +593,7 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+>>>>>>> 75586f19de5173f02a061d8dc5de005142ae6c6e
   delegates: []
 --- !u!114 &622501478
 MonoBehaviour:
@@ -566,6 +622,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noLooky: {fileID: 2100000, guid: 44c12c3c982b4f240b135ceeff4cbf08, type: 2}
+<<<<<<< HEAD
+  eyeSpy: {fileID: 2100000, guid: 9bd22f25ae2ef524290d1de1d4aabdf9, type: 2}
+=======
   eyeSpy: {fileID: 2100000, guid: 44c12c3c982b4f240b135ceeff4cbf08, type: 2}
 --- !u!114 &622501480
 MonoBehaviour:
@@ -582,6 +641,7 @@ MonoBehaviour:
   canvaS: {fileID: 0}
   levelToLoad: 0
   RadialProgress: {fileID: 1527520426}
+>>>>>>> 75586f19de5173f02a061d8dc5de005142ae6c6e
 --- !u!1 &708076951
 GameObject:
   m_ObjectHideFlags: 0
@@ -765,8 +825,13 @@ GameObject:
   - component: {fileID: 877588614}
   - component: {fileID: 877588613}
   - component: {fileID: 877588612}
+<<<<<<< HEAD
+  - component: {fileID: 877588609}
+  - component: {fileID: 877588610}
+=======
   - component: {fileID: 877588610}
   - component: {fileID: 877588609}
+>>>>>>> 75586f19de5173f02a061d8dc5de005142ae6c6e
   m_Layer: 0
   m_Name: ChengduSphere
   m_TagString: Untagged
@@ -781,12 +846,21 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 877588607}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< HEAD
+  m_LocalPosition: {x: 9.121282, y: 0, z: -0.15080275}
+  m_LocalScale: {x: 0.9874707, y: 0.9874707, z: 0.9874707}
+  m_Children:
+  - {fileID: 1583069056}
+  m_Father: {fileID: 1696435730}
+  m_RootOrder: 2
+=======
   m_LocalPosition: {x: 0.982, y: -0.031980645, z: 0.003}
   m_LocalScale: {x: 0.21608712, y: 0.21608712, z: 0.21608712}
   m_Children:
   - {fileID: 1583069056}
   m_Father: {fileID: 1658672648}
   m_RootOrder: 3
+>>>>>>> 75586f19de5173f02a061d8dc5de005142ae6c6e
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &877588609
 MonoBehaviour:
@@ -802,7 +876,11 @@ MonoBehaviour:
   myTime: 0
   RadialProgress: {fileID: 1527520426}
   gazeTime: 3
+<<<<<<< HEAD
+  nextSphere: {fileID: 1564098090}
+=======
   nextSphere: {fileID: 0}
+>>>>>>> 75586f19de5173f02a061d8dc5de005142ae6c6e
 --- !u!114 &877588610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1376,8 +1454,13 @@ GameObject:
   - component: {fileID: 1578196321}
   - component: {fileID: 1578196320}
   - component: {fileID: 1578196319}
+<<<<<<< HEAD
+  - component: {fileID: 1578196316}
+  - component: {fileID: 1578196317}
+=======
   - component: {fileID: 1578196317}
   - component: {fileID: 1578196316}
+>>>>>>> 75586f19de5173f02a061d8dc5de005142ae6c6e
   m_Layer: 0
   m_Name: ShanghaiSphere
   m_TagString: Untagged
@@ -1392,12 +1475,21 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1578196314}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< HEAD
+  m_LocalPosition: {x: 4.5789204, y: 0, z: 4.5469313}
+  m_LocalScale: {x: 0.9199049, y: 0.9199037, z: 0.9199037}
+  m_Children:
+  - {fileID: 52959008}
+  m_Father: {fileID: 1696435730}
+  m_RootOrder: 1
+=======
   m_LocalPosition: {x: -0.012, y: -0.031980645, z: 1.031}
   m_LocalScale: {x: 0.20130177, y: 0.20130152, z: 0.20130152}
   m_Children:
   - {fileID: 52959008}
   m_Father: {fileID: 1658672648}
   m_RootOrder: 2
+>>>>>>> 75586f19de5173f02a061d8dc5de005142ae6c6e
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1578196316
 MonoBehaviour:
@@ -1413,7 +1505,11 @@ MonoBehaviour:
   myTime: 0
   RadialProgress: {fileID: 1527520426}
   gazeTime: 3
+<<<<<<< HEAD
+  nextSphere: {fileID: 220877790}
+=======
   nextSphere: {fileID: 0}
+>>>>>>> 75586f19de5173f02a061d8dc5de005142ae6c6e
 --- !u!114 &1578196317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1716,9 +1812,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1676555014}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: -0.31894374, y: -0.3189438, z: -0.3189438}
+  m_LocalScale: {x: -0.31894368, y: -0.3189438, z: -0.3189438}
   m_Children: []
   m_Father: {fileID: 622501476}
   m_RootOrder: 0
@@ -1759,6 +1855,37 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &1696435729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1696435730}
+  m_Layer: 0
+  m_Name: InteraktiveSpheres
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1696435730
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1696435729}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.014, y: -0.031980645, z: 0.036}
+  m_LocalScale: {x: 0.21882889, y: 0.2188289, z: 0.2188289}
+  m_Children:
+  - {fileID: 622501476}
+  - {fileID: 1578196315}
+  - {fileID: 877588608}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1766714827
 Prefab:
   m_ObjectHideFlags: 0
