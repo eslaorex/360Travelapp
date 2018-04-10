@@ -111,6 +111,7 @@ NavMeshSettings:
     accuratePlacement: 0
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 --- !u!1 &16024844
 GameObject:
@@ -197,6 +198,8 @@ MeshFilter:
   m_GameObject: {fileID: 16024844}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 >>>>>>> 75586f19de5173f02a061d8dc5de005142ae6c6e
+=======
+>>>>>>> parent of 75586f1... anton7
 --- !u!1 &52959007
 GameObject:
   m_ObjectHideFlags: 0
@@ -455,9 +458,14 @@ Transform:
   m_LocalScale: {x: 0.21882889, y: 0.2188289, z: 0.2188289}
   m_Children:
   - {fileID: 1676555015}
+<<<<<<< HEAD
   m_Father: {fileID: 1658672648}
   m_RootOrder: 1
 >>>>>>> 75586f19de5173f02a061d8dc5de005142ae6c6e
+=======
+  m_Father: {fileID: 1901276511}
+  m_RootOrder: 2
+>>>>>>> parent of 75586f1... anton7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &622501477
 MonoBehaviour:
@@ -508,6 +516,7 @@ MonoBehaviour:
             m_BoolArgument: 1
           m_CallState: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
         - m_Target: {fileID: 622501478}
           m_MethodName: PointerEnter
 =======
@@ -522,6 +531,8 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 2
+=======
+>>>>>>> parent of 75586f1... anton7
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   - eventID: 1
@@ -561,7 +572,21 @@ MonoBehaviour:
         - m_Target: {fileID: 622501478}
 =======
         - m_Target: {fileID: 622501480}
+<<<<<<< HEAD
 >>>>>>> 75586f19de5173f02a061d8dc5de005142ae6c6e
+=======
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 622501480}
+>>>>>>> parent of 75586f1... anton7
           m_MethodName: PointerExit
           m_Mode: 1
           m_Arguments:
@@ -623,9 +648,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noLooky: {fileID: 2100000, guid: 44c12c3c982b4f240b135ceeff4cbf08, type: 2}
 <<<<<<< HEAD
+<<<<<<< HEAD
   eyeSpy: {fileID: 2100000, guid: 9bd22f25ae2ef524290d1de1d4aabdf9, type: 2}
 =======
   eyeSpy: {fileID: 2100000, guid: 44c12c3c982b4f240b135ceeff4cbf08, type: 2}
+=======
+  eyeSpy: {fileID: 2100000, guid: 9bd22f25ae2ef524290d1de1d4aabdf9, type: 2}
+>>>>>>> parent of 75586f1... anton7
 --- !u!114 &622501480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -795,7 +824,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1766714828}
-  - {fileID: 16024845}
   m_Father: {fileID: 1901276511}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -858,9 +886,14 @@ Transform:
   m_LocalScale: {x: 0.21608712, y: 0.21608712, z: 0.21608712}
   m_Children:
   - {fileID: 1583069056}
+<<<<<<< HEAD
   m_Father: {fileID: 1658672648}
   m_RootOrder: 3
 >>>>>>> 75586f19de5173f02a061d8dc5de005142ae6c6e
+=======
+  m_Father: {fileID: 1901276511}
+  m_RootOrder: 4
+>>>>>>> parent of 75586f1... anton7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &877588609
 MonoBehaviour:
@@ -1487,9 +1520,14 @@ Transform:
   m_LocalScale: {x: 0.20130177, y: 0.20130152, z: 0.20130152}
   m_Children:
   - {fileID: 52959008}
+<<<<<<< HEAD
   m_Father: {fileID: 1658672648}
   m_RootOrder: 2
 >>>>>>> 75586f19de5173f02a061d8dc5de005142ae6c6e
+=======
+  m_Father: {fileID: 1901276511}
+  m_RootOrder: 3
+>>>>>>> parent of 75586f1... anton7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1578196316
 MonoBehaviour:
@@ -2009,7 +2047,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1901276511}
-  - component: {fileID: 1901276512}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2029,20 +2066,12 @@ Transform:
   m_Children:
   - {fileID: 739374704}
   - {fileID: 1570316768}
+  - {fileID: 622501476}
+  - {fileID: 1578196315}
+  - {fileID: 877588608}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1901276512
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1901276510}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2839325ed809db94faf98a21aa2f4971, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2042033801
 Prefab:
   m_ObjectHideFlags: 0

@@ -8,6 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: d239e895b12d9a64c926862d4cdc407a
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 83fc06e186f1c0b2701a24d0eadbee59aed3f2ca
   - enabled: 1
     path: Assets/Scenes/EslaoScene.unity
     guid: 918817a49691bb2438487b75bff30e56
@@ -20,3 +24,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FadiScene02.unity
     guid: 945bb9a1398eaaf4a941b9c84d226a3f
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 34b433542a8450b4a20302af41eb35245589c2c6
+>>>>>>> 83fc06e186f1c0b2701a24d0eadbee59aed3f2ca
