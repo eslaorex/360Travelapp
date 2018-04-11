@@ -2101,7 +2101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a086be758f5828f4a83c9e7a8a8a9afe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gazeTime: 3
+  gazeTime: 2
   levelToLoad: 2
   RadialProgress: {fileID: 748423132}
 --- !u!114 &1418109886
