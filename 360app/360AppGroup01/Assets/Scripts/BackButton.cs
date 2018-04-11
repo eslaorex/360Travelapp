@@ -8,7 +8,7 @@ using UnityEngine.UI;
 
 public class BackButton : MonoBehaviour {
 
-    public float gazeTime = 3f;
+    public float gazeTime = 2f;
 
     public int levelToLoad;
     
@@ -23,9 +23,9 @@ public class BackButton : MonoBehaviour {
 
      
             timer += Time.deltaTime;
-            RadialProgress.GetComponent<Image>().fillAmount = timer / 3;
+            RadialProgress.GetComponent<Image>().fillAmount = timer / 2;
 
-        if (timer >= 3f)
+        if (timer >= 2f)
         {
             
             SceneManager.LoadScene(levelToLoad);
@@ -42,7 +42,7 @@ public class BackButton : MonoBehaviour {
     public void PointerExit()
     {
         timer = 0f;
-        RadialProgress.GetComponent<Image>().fillAmount = timer / 3;
+        RadialProgress.GetComponent<Image>().fillAmount = timer / 2;
 
     }
 

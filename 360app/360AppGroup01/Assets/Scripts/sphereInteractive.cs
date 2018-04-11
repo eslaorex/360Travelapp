@@ -8,7 +8,7 @@ using UnityEngine.EventSystems;
 
 public class sphereInteractive : MonoBehaviour {
 
-    public float gazeTime = 3f;
+    public float gazeTime = 2f;
     public GameObject canvaS; 
     public int levelToLoad;
     public Transform RadialProgress;
@@ -26,7 +26,7 @@ public class sphereInteractive : MonoBehaviour {
 
 
         timer += Time.deltaTime;
-             RadialProgress.GetComponent<Image>().fillAmount = timer / 3;
+             RadialProgress.GetComponent<Image>().fillAmount = timer / 2;
         if (timer >= gazeTime)
         {
             
@@ -45,7 +45,7 @@ public class sphereInteractive : MonoBehaviour {
     {
        canvaS.SetActive(false);
         timer = 0f;
-        RadialProgress.GetComponent<Image>().fillAmount = timer / 3;
+        RadialProgress.GetComponent<Image>().fillAmount = timer / 2;
 
         
     }
