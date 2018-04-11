@@ -8,7 +8,7 @@ public class GazeLoadingScene : MonoBehaviour {
 
     public float myTime = 0f;
     public Transform RadialProgress;
-    public float gazeTime = 3f;
+    public float gazeTime = 2f;
     public Transform nextSphere;
 
 
@@ -22,7 +22,7 @@ public class GazeLoadingScene : MonoBehaviour {
 
         //transform.Rotate(new Vector3(0, Time.deltaTime * 20, 0));
         myTime += Time.deltaTime;
-            RadialProgress.GetComponent<Image>().fillAmount = myTime / 3;
+            RadialProgress.GetComponent<Image>().fillAmount = myTime / 2;
         
             
 
@@ -48,7 +48,7 @@ public class GazeLoadingScene : MonoBehaviour {
     {
      
         myTime = 0f;
-        RadialProgress.GetComponent<Image>().fillAmount = myTime / 3;
+        RadialProgress.GetComponent<Image>().fillAmount = myTime / 2;
     }
 
     public void PointerDown()
