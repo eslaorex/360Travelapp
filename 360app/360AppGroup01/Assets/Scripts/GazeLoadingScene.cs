@@ -20,7 +20,7 @@ public class GazeLoadingScene : MonoBehaviour {
 	public void Update ()
     {
 
-        transform.Rotate(new Vector3(0, Time.deltaTime * 20, 0));
+        //transform.Rotate(new Vector3(0, Time.deltaTime * 20, 0));
         myTime += Time.deltaTime;
             RadialProgress.GetComponent<Image>().fillAmount = myTime / 2;
         
