@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: GrutasLongmen_China 1
-  m_Shader: {fileID: 4800000, guid: 6bf3fdcbb27e2b848999e4dc95f0e5ea, type: 3}
+  m_Shader: {fileID: 4800000, guid: 3d70bb261098a5d4da312c071a434a01, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
